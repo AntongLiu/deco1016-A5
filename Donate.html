@@ -34,22 +34,22 @@
 		</div>
 		<div style="width: 240px;height:50px;background-color: rgb(113,157,56);text-align: center;line-height: 50px;font-size: 24px;border-radius: 30px;color: #fff;margin: -60px auto 0;">DONATE</div>
 		<div style="width: 240px;height:50px;background-color: rgb(113,157,56);text-align: center;line-height: 50px;font-size: 24px;border-radius: 10px;color: #fff;margin-top: 30px;margin-left: 5%;">DONATE</div>
-		<h3 style="margin-top: 10px;margin-left: 5%;">We pledge 100% of your tax deductible donation goes directly to empowering Australians to take action for the environment. </h3>
+		<p style="margin-top: 10px;margin-left: 5%;">We pledge 100% of your tax deductible donation goes directly to empowering Australians to take action for the environment. </p>
 		<div style=" width: 90%;margin-left: 5%;height: 600px;background-color: rgb(113,157,56);margin-top: 20px;">
 			<div style="text-align: center;color: #fff;padding-top: 20px;font-size: 18px;">I'd like to make this donation</div>
 		    <div style="display: flex;">
-            <div class="week" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-left: 8%;margin-top: 20px;">Once</div>
-            <div class="week" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-top: 20px;margin-left: 1%;">Weekly</div>
-            <div class="week" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-top: 20px;margin-left: 1%;">Monthly</div>
-            <div class="week" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-top: 20px;margin-left: 1%;">Yearly</div>
-        </div>
-        <div style="text-align: center;color: #fff;padding-top: 20px;font-size: 18px;">Please select a donation amount</div>
-        <div style="display: flex;">
-            <div class="price" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-left: 8%;margin-top: 20px;">$20</div>
-            <div class="price" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-top: 20px;margin-left: 1%;">$50</div>
-            <div class="price" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-top: 20px;margin-left: 1%;">$100</div>
-            <div class="price" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-top: 20px;margin-left: 1%;">$200</div>
-        </div>
+				<div class="hhh" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-left: 8%;margin-top: 20px;">Once</div>
+				<div class="hhh" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-top: 20px;margin-left: 1%;">Weekly</div>
+				<div class="hhh" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-top: 20px;margin-left: 1%;">Monthly</div>
+				<div class="hhh" style="width: 20%;height: 30px;background-color: #fff;text-align: center;line-height: 30px;margin-top: 20px;margin-left: 1%;">Yearly</div>
+			</div>
+			<div style="text-align: center;color: #fff;padding-top: 20px;font-size: 18px;">Please select a donation amount</div>
+			<div style="display: flex;">
+				<div class="hhh" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-left: 8%;margin-top: 20px;">$20</div>
+				<div class="hhh" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-top: 20px;margin-left: 1%;">$50</div>
+				<div class="hhh" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-top: 20px;margin-left: 1%;">$100</div>
+				<div class="hhh" style="width: 20%;height: 45px;background-color: #fff;text-align: center;line-height: 45px;margin-top: 20px;margin-left: 1%;">$200</div>
+			</div>
       <div style="text-align: center;color: #fff;padding-top: 20px;font-size: 18px;">Payment Details</div>
 		    <div style="display: flex;">
 				<div style="width: 30%;margin-left: 10%;">
@@ -163,64 +163,6 @@
 			background-color: #e0e0e0 !important;
 			color: #ffffff;
 		}
-    .week:hover,
-    .price:hover {
-        background-color: rgb(10, 101, 50) !important;
-        color: #fff;
-    }
-    
-    .ok {
-        background-color: rgb(10, 101, 50) !important;
-        color: #fff;
-    }
-</style>
-<script type="text/javascript">
-    var show = () => {
-        var a = document.getElementById('shows');
-        a.style.display = 'block';
-    }
-    var showxx = () => {
-        var a = document.getElementById('shows');
-        a.style.display = 'none';
-    }
-
-    var dialog = () => {
-        var a = document.getElementById('dia');
-        a.style.display = 'block';
-    }
-    var dialogclose = () => {
-        var a = document.getElementById('dia');
-        a.style.display = 'none';
-    }
-    var weekList = document.getElementsByClassName('week');
-    var priceList = document.getElementsByClassName('price');
-
-    for (var i in weekList) {
-        weekList[i].onmouseout = weekback;
-    }
-
-    for (var i in priceList) {
-        priceList[i].onmouseout = priceback;
-    }
-
-    function weekback() {
-        for (var i = 0; i < weekList.length; i++) {
-            if (weekList[i] == this) {
-                continue;
-            }
-            weekList[i].classList.remove("ok");
-        }
-        this.classList.add('ok');
-    }
-
-    function priceback() {
-        for (var i = 0; i < priceList.length; i++) {
-            if (priceList[i] == this) {
-                continue;
-            }
-            priceList[i].classList.remove("ok");
-        }
-        this.classList.add('ok');
-    }
-</script>
+	</style>
+	</script>
 </html>

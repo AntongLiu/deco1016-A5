@@ -57,7 +57,7 @@ ul {
   width: 10px;
   height: 10px;
   margin: 0 2px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 50%;
 }
 /* Orange dot */
@@ -68,7 +68,7 @@ ul {
   width: 11px;
   height: 11px;
   margin: 0;
-  background: tomato;
+  background: #ff6347;
   animation: swiper-dot 10s steps(1, end) infinite;
   transition: left 1s linear;
 }

@@ -51,7 +51,7 @@ a {
 #li>li {
 	width: 10px;
 	height: 10px;
-	background-color: #ccc;
+	background-color: #cccccc;
 	border-radius: 50%;
 	margin-right: 5px;
 	float: left;
@@ -59,7 +59,7 @@ a {
 }
 
 #li>.on {
-	background-color: #f50
+	background-color: #ff5500
 }
 
 #an {
@@ -75,7 +75,7 @@ a {
 	background-color: rgba(0, 0, 0, .3);
 	text-align: center;
 	line-height: 40px;
-	color: #fff;
+	color: #ffffff;
 	font-family: Verdana;
 	font-weight: 600;
 	font-size: 1.2em
